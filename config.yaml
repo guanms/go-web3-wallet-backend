@@ -1,0 +1,9 @@
+server:
+  port: "8080"
+
+chain:
+  rpc_url: "https://eth-sepolia.g.alchemy.com/v2/your_key"
+  chain_id: 11155111
+
+jwt:
+  secret: "replace_with_your_own_secret"
