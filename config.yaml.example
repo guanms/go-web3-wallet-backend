@@ -1,0 +1,12 @@
+server:
+  port: "8080"
+
+chain:
+  # RPC 节点地址，可以使用 Infura、Alchemy 或其他提供商
+  rpc_url: "https://rpc.ankr.com/eth_sepolia"
+  chain_id: 11155111  # Sepolia 测试网 Chain ID
+  # private_key 从环境变量 CHAIN_PRIVATE_KEY 读取
+
+jwt:
+  # JWT 签名密钥，建议从环境变量 JWT_SECRET 读取
+  secret: "replace_with_your_own_secret"
